@@ -1,0 +1,198 @@
+.title {
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-align: right;
+    color: rgb(255, 255, 255);
+    font-size: 55px;
+}
+
+* {
+    font-family: Arial;
+    color: #ffffff;
+}
+
+.info {
+    font-weight: normal;
+    text-align:right;
+    color:rgb(224, 224, 224);
+    font-style: italic;
+    font-size: 20px;
+    font-weight: lighter;
+  }
+
+.button {
+    border-radius: 2px;
+    background-color: #242424;
+    border: 1px solid black;
+    color: #ffffff;
+    text-align: center;
+    font-size: 15px;
+    padding: 15px;
+    width: 250px;
+    transition: all 0.75s;
+    cursor: pointer;
+    margin-bottom: 20;
+    border-radius: 30px 8px 30px 8px;
+}
+  
+  .button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.75s;
+}
+  
+  .button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.75s;
+}
+  
+  .button:hover span {
+    padding-right: 25px;
+}
+  
+  .button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+
+.topnav {
+  background-color: rgb(49, 49, 49);
+  overflow: hidden;
+  border-radius: 10px 10px 10px 10px;
+}
+
+.topnav a {
+  float: left;
+  color: #ffffff;
+  text-align: center;
+  padding: 8px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: all 0.5s ease;
+}
+
+.topnav a:hover {
+  background-color: rgb(182, 182, 182);
+  color: rgb(255, 255, 255);
+  transition: 0.5s;
+}
+
+.topnav a.active {
+  background-color: #0051ff;
+  color: white;
+}
+
+body {
+  background-color: #000000;
+}
+
+h2 {
+  text-align: center;
+  font-size: 30;
+  text-decoration: underline;
+}
+
+body, html {
+  height: 100%;
+}
+
+* {
+  box-sizing: border-box;
+  border-radius: 10px;
+}
+
+.bg-image {
+  background-image: url("https://c4.wallpaperflare.com/wallpaper/707/220/899/gradient-blue-pink-abstract-art-wallpaper-preview.jpg");
+
+  height: 75%;
+
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.bg-text {
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0, 0.4);
+  color: white;
+  font-weight: bold;
+  border: 3px solid #f1f1f1;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 2;
+  width: 80%;
+  padding: 20px;
+  text-align: center;
+}
+
+.navbar {
+  background-color: rgb(255, 255, 255);
+  overflow: hidden;
+  bottom: 4;
+  width: 100%;
+  border-radius: 0px 0px 10px 10px;
+}
+
+.navbar p {
+  float: left;
+  display: block;
+  color: #000000;
+  text-align: center;
+  padding: 2px 20px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+
+.navbar p.active {
+  background-color: #04AA6D;
+  color: rgb(255, 255, 255);
+}
+
+.cat-image {
+  color: rgb(0, 47, 255);
+}
+
+.open {
+  color:rgb(0, 47, 255)
+}
+
+::-webkit-scrollbar {
+  width: px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f100;
+}
+
+::-webkit-scrollbar-thumb {
+  background: #888;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555;
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+.log {
+  font-family: 'Courier New';
+  color: #1eff00;
+  outline-color: #ffffff;
+  text-align: center;
+  font-size: 32px;
+}
+
+p.version {
+  text-align: center;
+  font-size: 25px;
+}
