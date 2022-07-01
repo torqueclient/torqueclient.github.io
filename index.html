@@ -1,35 +1,37 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta name="viewport" content="width=device=width, initial-scale=1.0">
-    <meta charset="UTF-8">
-    <title>Torque Client</title>
-    <link rel="icon" href="image/1839231.png"> <!--Tab Logo-->
-    <link rel="stylesheet" href="css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Personal Site | v2</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
 </head>
 <body>
     <header>
-        <a href="#" class="logo">Torque Client</a>
-        <ul class="navigation">
-            <li><a href="#">Home</a></li>
-            <li><a href="#">Features</a></li>
-            <li><a href="#">About</a></li>
-            <li><a href="#">Invite</a></li>
-            <li><a href="#">Support</a></li>
+        <a href="#" class="logo">Portfolio</a>
+        <div class="toggle" onclick="toggleMenu();"></div>
+        <ul class="menu">
+            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
+            <li><a href="#about" onclick="toggleMenu();">About</a></li>
+            <li><a href="#services" onclick="toggleMenu();">Download</a></li>
+            <li><a href="#work" onclick="toggleMenu();">Store</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu();">Discord</a></li>
+            <li><a href="#testimonial" onclick="toggleMenu();">UpdateLog</a></li>
         </ul>
-        <div class="search">
-            <input type="text" placeholder="Search">
-            <i class="fas fa-search"></i>
-        </div>
     </header>
-    <div class="banner">
-        <div class="content">
-            <h2>Torque Client</h2>
-            <p>Torque Client is a modpack for the most popular versions of Minecraft, including: 1.8, Torque Client is always kept up to date with the latest gameplay pvp updates to enhance your experience.</p>
-            <a href="#">Download</a>
+    <section class="banner" id="home">
+        <div class="textBx">
+            <h2>Torque Client<br><span></span></h2>
+            <h3>A 1.8.9 Modpack Client</h3>
+            <a href="#about" class="btn">Download</a>
         </div>
-        <img src="image/logo.png" class="image">
-        <!--Logo size 512x512-->
+    </section>
+    <section class="about" id="about">
+        <div class="heading">
+            <h2>About Me</h2>
+        </div>
+    <div class="copyright">
+        <p>Copyright &copy 2022 Torque Client All Right Reserve</p>
     </div>
-</body>
-</html>
