@@ -1,51 +1,40 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta charset="utf-8">
-    <title>Torque Client</title>
-    <link rel="stylesheet" href="css/style.css">
-    <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css">
-</head>
-<body>
-    <header>
-        <a href="#" class="logo">Portfolio</a>
-        <div class="toggle" onclick="toggleMenu();"></div>
-        <ul class="menu">
-            <li><a href="#home" onclick="toggleMenu();">Home</a></li>
-            <li><a href="#about" onclick="toggleMenu();">About</a></li>
-            <li><a href="#services" onclick="toggleMenu();">Download</a></li>
-            <li><a href="#work" onclick="toggleMenu();">Store</a></li>
-            <li><a href="#testimonial" onclick="toggleMenu();">Discord</a></li>
-            <li><a href="#testimonial" onclick="toggleMenu();">UpdateLog</a></li>
-        </ul>
-    </header>
-    <section class="banner" id="home">
-        <div class="textBx">
-            <h2>Torque Client<br><span></span></h2>
-            <h3>A 1.8.9 Modpack Client</h3>
-            <a href="#about" class="btn">Download</a>
-        </div>
-    </section>
-    <section class="about" id="about">
-        <div class="heading">
-            <h2>About Me</h2>
-        </div>
-    <div class="copyright">
-        <p>Copyright &copy 2022 Torque Client All Right Reserve</p>
-    </div>
-    <script type="text/javascript">
-        window.addEventListener('scroll', function(){
-            var header = document.querySelector('header');
-            header.classList.toggle('sticky', window.scrollY > 0);
-        });
+<html>
+  <head>
+    <link href="assets/style/style.css" rel="stylesheet" type="text/css"/>
+    <script src="assets/js/script.js"></script>
 
-        function toggleMenu(){
-            var  menuToggle = document.querySelector('.toggle');
-            var  menu = document.querySelector('.menu');
-            menuToggle.classList.toggle('active')
-            menu.classList.toggle('active')
-        }
-    </script>
-</body>
+    <meta property="og:type" content="website">
+    <meta content="quick" property="og:title">
+    <meta content="a very sexy man uwu" property="og:description">
+    <meta content="#00ffff" data-react-helmet="true" name="theme-color">
+
+    <title>quick's website</title>
+  </head>
+  <body>
+
+    <center>
+      
+      <div class="main-panel">
+        
+        <p class="texth">Hi, I'm quick.</p>
+        <p class="text">
+        I'm a developer, primarily in Java, but I know other<br> 
+        languages as well, such as C#, Ruby, and HTML/CSS.<br>
+        I am also learning JavaScript and a bit of reverse<br>
+        engineering for Java programs.<br><br>
+        My main projects right now:<br>
+        <a class="link" href="http://monsoon.wtf">Monsoon</a>, a Player Assistance Mod for Minecraft.<br>
+        <a class="link" href="http://lockup.wtf">lockup.wtf</a>, a Private community that offers many things.<br>
+        <br><br>
+        <a class="link" href="https://discord.gg/h4eeerEhdY">Discord</a> | <a class="link" href="#">Download</a> | <a class="link" href="#">Store</a>
+        </p>
+
+
+      </div>
+
+    </center>
+
+  </body>
+
 </html>
